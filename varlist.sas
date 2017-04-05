@@ -17,5 +17,5 @@ quit;
 %mend varList;
 
 /* %varList(work.regsys2016, /ARB_|LONN_/); */
-/* %varList(work.regsys2016; */
+/* %varList(work.regsys2016); */
 /* %put &varlist.; */
