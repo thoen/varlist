@@ -1,2 +1,2 @@
-# varlist
-Creates as comma-separated variable list based on file name and regular expressions
+# varlist.sas
+varlist.sas is a sas macro program which creates a comma-separated variable list based on filename including libnames and optiononal regular expressions
