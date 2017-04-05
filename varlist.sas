@@ -1,3 +1,6 @@
+/* varlist.sas creates a comma-separated variable list based on */
+/* filename including libnames and optional regular expressions */
+
 %macro varList(libDs, regex);
 	%let lib = %upcase(%scan(&libDs.,1,'.'));
 	%let ds = %upcase(%scan(&libDs.,2,'.'));
